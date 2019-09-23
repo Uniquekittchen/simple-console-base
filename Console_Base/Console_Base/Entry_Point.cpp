@@ -4,7 +4,7 @@ BOOL WINAPI Initialize(HINSTANCE h_Module)
 {
 	Console->Start_Attaching();
 	Console->Log_Color("Example", e_Colors::Red);
-	Console->Log_Color("Example Non-Color", e_Colors::White);
+	Console->Log_Color("Example White", e_Colors::White);
 	Console->Stop_Attaching();
 
 	FreeLibraryAndExitThread(h_Module, EXIT_SUCCESS);
